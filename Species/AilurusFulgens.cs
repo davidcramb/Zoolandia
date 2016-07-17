@@ -30,5 +30,9 @@ namespace Zoolandia.Species
         {
             return "Welcome, " + this.Name;
         }
+        public override string Sound()
+        {
+            return "Cheee chee cheee";
+        }
     }
 }

@@ -11,5 +11,9 @@ namespace Zoolandia.Species
             {
                 return "I eat crickets and spinach leaves.";
             }
+            public override string Sound()
+            {
+                return "Hiss?";
+            }
     }
 }

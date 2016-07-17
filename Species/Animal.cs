@@ -29,5 +29,9 @@ namespace Zoolandia.Species
         { 
             return "YUM";
         }
+        public virtual string Sound()
+        {
+            return "The cow says moo.";
+        }
     }
 }

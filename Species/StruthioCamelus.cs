@@ -15,5 +15,9 @@ namespace Zoolandia.Species
             {
                 return StickHeadInSand(days);
             }
+            public override string Sound()
+            {
+                return "Waaark!";
+            }
     }
 }
