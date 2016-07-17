@@ -26,6 +26,8 @@ namespace Zoolandia
             // Console.WriteLine(Quincy.Weight);
             StruthioCamelus Dee = new StruthioCamelus("Dee", 50, 300);
             Console.WriteLine(Dee.Hide(7));
+            OctopusVulgaris Ultros = new OctopusVulgaris("Ultros", 20, 220);
+            Console.WriteLine(Ultros.pushHeavyWeight(5));
             Console.ReadLine(); //makes console wait for you instead of quitting outright
             {
                 
