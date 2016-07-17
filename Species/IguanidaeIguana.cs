@@ -13,7 +13,12 @@ namespace Zoolandia.Species
             }
             public override string Sound()
             {
+                string animalSound = base.Sound();
                 return "Hiss?";
+            }
+            public override string MatingDance()
+            {
+                return this.Name + " side steps around and raises its tail.";
             }
     }
 }

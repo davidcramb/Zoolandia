@@ -17,7 +17,12 @@ namespace Zoolandia.Species
             }
             public override string Sound()
             {
+                string animalSound = base.Sound();
                 return "Waaark!";
+            }
+            public override string MatingDance()
+            {
+                return "The ostrich does a giant chicken dance like you see at wedding receptions.";
             }
     }
 }
