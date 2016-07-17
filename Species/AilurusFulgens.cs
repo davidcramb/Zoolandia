@@ -6,7 +6,7 @@ namespace Zoolandia.Species
     {
         //CONSTRUCTOR for red panda
         // base calls the base constructor
-        public AilurusFulgens(string name) : base(name)
+        public AilurusFulgens(string name, int height, int weight) : base(name, height, weight)
         { 
             //don't need to do anything additional for constructor
         }
