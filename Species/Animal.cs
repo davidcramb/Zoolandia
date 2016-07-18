@@ -10,6 +10,12 @@ namespace Zoolandia.Species
             this.Height = height;
             this.Weight = weight;
         }
+        public Animal (string name)
+        {
+            this.Name = name;
+        }
+        
+        
         public string Name {get; set;} //allows us to set and return Name
         public int Weight {get; set;}
         public int Height {get; set;}

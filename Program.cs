@@ -14,6 +14,7 @@ namespace Zoolandia
             IguanidaeIguana Quincy = new IguanidaeIguana("Quincy", 8, 35);
             StruthioCamelus Dee = new StruthioCamelus("Dee", 50, 300);
             OctopusVulgaris Ultros = new OctopusVulgaris("Ultros", 20, 220);
+            OctopusVulgaris Inky = new OctopusVulgaris("Inky");
             Console.WriteLine(redPanda.Name);
             Console.WriteLine(Joe.Name);
             Console.WriteLine(Bob.Name);
@@ -26,6 +27,7 @@ namespace Zoolandia
             Console.WriteLine(Joe.Welcome("Joe"));
             Console.WriteLine(Joe.Name + Joe.Eat() + Joe.Eat(1));
             Console.WriteLine(Bob.Eat(5) + Bob.MatingDance() + " " +  Bob.Height);
+            Console.WriteLine(Bob.Sound("dangerous", 10));
 
             Console.WriteLine(Quincy.MatingDance());
             Console.WriteLine(Dee.Hide(7));

@@ -1,4 +1,4 @@
-using System;
+
 
 namespace Zoolandia.Species
 {
@@ -7,7 +7,10 @@ namespace Zoolandia.Species
         public OctopusVulgaris(string name, int height, int weight) : base (name, height, weight)
         {
         }
-
+        
+        public OctopusVulgaris(string name) : base(name)
+        {
+        }
         public string pushHeavyWeight(int minutes) 
         {
             return "Oof! This weight is heavy! It will take me " + minutes + " minutes to push it off!";

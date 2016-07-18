@@ -1,4 +1,4 @@
-using System;
+
 
 namespace Zoolandia.Species
 {
@@ -9,6 +9,10 @@ namespace Zoolandia.Species
         public AilurusFulgens(string name, int height, int weight) : base(name, height, weight)
         { 
             //don't need to do anything additional for constructor
+        }
+
+        public AilurusFulgens(string name) : base(name)
+        {
         }
         //use override to change the method functionality
         public override string Eat(int numberOfFoods)
