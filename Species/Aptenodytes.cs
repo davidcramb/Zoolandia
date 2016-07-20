@@ -12,6 +12,8 @@ namespace Zoolandia.Species
     {
         public Forsteri(string name, int height, int weight) : base(name, height, weight)
         {
+            this.commonName = "Emperor Penguin";
+            this.scientificName = "Aptenodytes Forsteri";
         }
     }       
 }

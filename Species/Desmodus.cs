@@ -12,6 +12,8 @@ namespace Zoolandia.Species
     {
         public Rotundus(string name, int height, int weight) : base(name, height, weight)
         {
+            this.commonName = "Vampire Bat";
+            this.scientificName = "Desmodus Rotundus";
         }
     }       
 }

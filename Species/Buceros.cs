@@ -12,6 +12,8 @@ namespace Zoolandia.Species
     {
         public Bicornis(string name, int height, int weight) : base(name, height, weight)
         {
+            this.commonName = "Great Hornbill";
+            this.scientificName = "Buceros Bicornis";
         }
     }       
 }

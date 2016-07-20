@@ -12,6 +12,8 @@ namespace Zoolandia.Species
     {
         public Anna(string name, int height, int weight) : base(name, height, weight)
         {
+            this.commonName = "Anna's Hummingbird";
+            this.scientificName = "Calypte Anna";
         }
     }       
 }

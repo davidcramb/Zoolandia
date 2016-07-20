@@ -13,7 +13,7 @@ namespace Zoolandia.Species
         }  
         public override string Eat(int numOfCrickets) 
         {
-            return "I eat crickets and spinach leaves.";
+            return "this.Name ate " + numOfCrickets + " crickets and spinach leaves.";
         }
         public override string Sound()
         {

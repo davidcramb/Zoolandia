@@ -12,6 +12,8 @@ namespace Zoolandia.Species
     {
         public Scandiacus(string name, int height, int weight) : base(name, height, weight)
         {
+            this.commonName = "Snowy Owl";
+            this.scientificName = "Bubo Scandiacus";
         }
     }       
 }
