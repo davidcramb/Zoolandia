@@ -7,6 +7,10 @@ namespace Zoolandia.Species
         public Calypte(string name, int height, int weight) : base(name, height, weight)
         {
         }
+        public virtual string hover()
+        {
+            return "Hovering over a flower";
+        }
     }
     public class Anna : Calypte
     {
@@ -14,6 +18,10 @@ namespace Zoolandia.Species
         {
             this.commonName = "Anna's Hummingbird";
             this.scientificName = "Calypte Anna";
+        }
+        public override string hover()
+        {
+            return "Hover hover hover hover";
         }
     }       
 }
