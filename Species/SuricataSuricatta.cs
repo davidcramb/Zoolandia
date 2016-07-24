@@ -2,12 +2,12 @@
 
 namespace Zoolandia.Species 
 {
-    public class SuricataSuricatta : Animal 
+    public class Suricata : Animal 
     {
-        public SuricataSuricatta(string name, int height, int weight) : base(name, height, weight)
+        public Suricata(string name, int height, int weight) : base(name, height, weight)
         {
         }
-        public SuricataSuricatta(string name) : base(name)
+        public Suricata(string name) : base(name)
         {
         }
         public override string Sound()
@@ -26,5 +26,14 @@ namespace Zoolandia.Species
             string animalMatingDance = base.MatingDance();
             return "Cover your eyes, Billy.";
         }
-    }   
+    }
+    public class Suricatta : Suricata
+    {
+        public Suricatta(string name, int height, int weight) : base (name, height, weight)
+        {
+            this.commonName = "Meerkat";
+            this.scientificName = "Suricata Suricatta";
+            this.isCute = true;
+        }
+    }
 }

@@ -2,12 +2,12 @@
 
 namespace Zoolandia.Species
 {
-    public class StruthioCamelus : Animal
+    public class Struthio : Animal
     {
-        public StruthioCamelus(string name, int height, int weight) : base (name, height, weight) 
+        public Struthio(string name, int height, int weight) : base (name, height, weight) 
         {
         }
-        public StruthioCamelus(string name) : base (name)
+        public Struthio(string name) : base (name)
         {
         }
         
@@ -27,6 +27,14 @@ namespace Zoolandia.Species
         public override string MatingDance()
         {
             return "The ostrich does a giant chicken dance like you see at wedding receptions.";
+        }
+    }
+    public class Camelus : Struthio 
+    {
+        public Camelus(string name, int height, int weight) : base(name, height, weight)
+        {
+            this.commonName = "Ostrich";
+            this.scientificName = "Struthio Camelus";
         }
     }
 }

@@ -2,18 +2,19 @@
 
 namespace Zoolandia.Species
 {
-    public class AilurusFulgens : Animal 
+    public class Ailurus : Animal 
     {
         //CONSTRUCTOR for red panda
         // base calls the base constructor
-        public AilurusFulgens(string name, int height, int weight) : base(name, height, weight)
+        public Ailurus(string name, int height, int weight) : base(name, height, weight)
         { 
             //don't need to do anything additional for constructor
         }
 
-        public AilurusFulgens(string name) : base(name)
+        public Ailurus(string name) : base(name)
         {
         }
+        
         //use override to change the method functionality
         public override string Eat(int numberOfFoods)
         {
@@ -24,19 +25,18 @@ namespace Zoolandia.Species
         {
             return "I don't know what I Just ate, but it was good";
         }
-        public string Welcome (string name) 
-        {
-            this.Name = name;
-            return Welcome();
-        }
-
-        public string Welcome()
-        {
-            return "Welcome, " + this.Name;
-        }
         public override string Sound()
         {
             return "Cheee chee cheee";
+        }
+    }
+    public class Fulgens : Ailurus
+    {
+        public Fulgens(string name, int height, int weight) : base (name, height, weight)
+        {
+            this.commonName = "Red Panda";
+            this.scientificName = "Ailurus Fulgens";
+            this.isCute = true;
         }
     }
 }

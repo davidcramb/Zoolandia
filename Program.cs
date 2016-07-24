@@ -8,13 +8,13 @@ namespace Zoolandia
         public static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
-            AilurusFulgens redPanda = new AilurusFulgens("Steve", 20, 200);
-            AilurusFulgens Joe = new AilurusFulgens("Joe", 19, 185);
-            SuricataSuricatta Bob = new SuricataSuricatta("Bob", 15, 100);
-            IguanidaeIguana Quincy = new IguanidaeIguana("Quincy", 8, 35);
-            StruthioCamelus Dee = new StruthioCamelus("Dee", 50, 300);
-            OctopusVulgaris Ultros = new OctopusVulgaris("Ultros", 20, 220);
-            OctopusVulgaris Inky = new OctopusVulgaris("Inky");
+            Fulgens redPanda = new Fulgens("Steve", 20, 200);
+            Fulgens Joe = new Fulgens("Joe", 19, 185);
+            Suricatta Bob = new Suricatta("Bob", 15, 100);
+            Iguana Quincy = new Iguana("Quincy", 8, 35);
+            Camelus Dee = new Camelus("Dee", 50, 300);
+            Octopus Ultros = new Octopus("Ultros", 20, 220);
+            Octopus Inky = new Octopus("Inky");
             Giganteus Hoppy = new Giganteus ("Hoppy", 50, 225);
             Tigris Hobbes = new Tigris("Hobbes",60, 300);
 
@@ -28,7 +28,6 @@ namespace Zoolandia
 
             string response = redPanda.Eat(5);
             Console.WriteLine(redPanda.Name + " says " + response);
-            Console.WriteLine(Joe.Welcome("Joe"));
             Console.WriteLine(Joe.Name + Joe.Eat() + Joe.Eat(1));
             Console.WriteLine(Bob.Eat(5) + Bob.MatingDance() + " " +  Bob.Height);
             Console.WriteLine(Bob.Sound("dangerous", 10));

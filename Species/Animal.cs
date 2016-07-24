@@ -18,6 +18,7 @@ namespace Zoolandia.Species
         public string Name {get; set;} //allows us to set and return Name
         public int Weight {get; set;}
         public int Height {get; set;}
+        public bool isCute {get;set;}
         public string scientificName {get;set;}
         public string commonName {get;set;}
 

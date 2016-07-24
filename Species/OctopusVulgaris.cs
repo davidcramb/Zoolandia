@@ -2,13 +2,13 @@
 
 namespace Zoolandia.Species
 {
-    public class OctopusVulgaris : Animal
+    public class Octopus : Animal
     {
-        public OctopusVulgaris(string name, int height, int weight) : base (name, height, weight)
+        public Octopus(string name, int height, int weight) : base (name, height, weight)
         {
         }
         
-        public OctopusVulgaris(string name) : base(name)
+        public Octopus(string name) : base(name)
         {
         }
         public string pushHeavyWeight(int minutes) 
@@ -28,6 +28,14 @@ namespace Zoolandia.Species
             string animalSound = base.Sound();
             return "Blub blub blub";
         }
-
+    }
+    public class Vulgaris : Octopus 
+    {
+        public Vulgaris(string name, int height, int weight) : base (name, height, weight)
+        {
+            this.commonName = "Octopus";
+            this.scientificName = "Octopus Vulgaris";
+            this.isCute = false;
+        }
     }
 }
