@@ -13,15 +13,16 @@ namespace Zoolandia.Species
 
         public Ailurus(string name) : base(name)
         {
+            this.diet = "omnivore";
         }
-        
+        public 
         //use override to change the method functionality
         public override string Eat(int numberOfFoods)
         {
             string animalEat = base.Eat(3); //base calls parent method
             return animalEat + " nom nom nom";
         }
-        public string Eat()
+        public virtual string Eat(int numberOfFoods, string omnivore)
         {
             return "I don't know what I Just ate, but it was good";
         }

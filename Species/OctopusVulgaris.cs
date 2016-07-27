@@ -6,6 +6,7 @@ namespace Zoolandia.Species
     {
         public Octopus(string name, int height, int weight) : base (name, height, weight)
         {
+            this.diet = "omnivore";
         }
         
         public Octopus(string name) : base(name)

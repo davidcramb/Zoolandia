@@ -6,11 +6,13 @@ namespace Zoolandia.Species
     {
         public Alcelaphinae(string name, int height, int weight) : base(name, height, weight)
         {
+            this.diet = "herbivore";
         }
         public virtual string gallop (int numberOfAnimal)
         {
             return "A herd of " + numberOfAnimal + " antelopes gallops around.";
         }
+        public override 
     }
     public class Connochaetes : Alcelaphinae
     {

@@ -6,6 +6,7 @@ namespace Zoolandia.Species
     {
         public Giraffa(string name, int height, int weight) : base(name, height, weight)
         {
+            this.diet = "herbivore";
         }
         public string stretch()
         {

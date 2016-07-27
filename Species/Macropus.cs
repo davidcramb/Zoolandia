@@ -6,6 +6,7 @@ namespace Zoolandia.Species
     {
         public Macropus(string name, int height, int weight) : base(name, height, weight)
         {
+            this.diet = "omnivore";
         }
         public virtual string hop(int number_of_hops)
         {

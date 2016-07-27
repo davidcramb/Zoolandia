@@ -9,6 +9,7 @@ namespace Zoolandia.Species
         }
         public Suricata(string name) : base(name)
         {
+            this.diet = "omnivore";
         }
         public override string Sound()
         {

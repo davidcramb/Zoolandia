@@ -6,6 +6,7 @@ namespace Zoolandia.Species
     {
         public Struthio(string name, int height, int weight) : base (name, height, weight) 
         {
+            this.diet = "herbivore";
         }
         public Struthio(string name) : base (name)
         {

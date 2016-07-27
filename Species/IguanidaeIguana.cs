@@ -6,6 +6,7 @@ namespace Zoolandia.Species
     {
         public Iguanidae(string name, int height, int weight) : base(name, height, weight) 
         {
+            this.diet = "omnivore";
         } 
 
         public Iguanidae(string name) : base(name)

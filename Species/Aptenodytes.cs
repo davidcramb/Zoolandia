@@ -6,6 +6,7 @@ namespace Zoolandia.Species
     {
         public Aptenodytes(string name, int height, int weight) : base(name, height, weight)
         {
+            this.diet = "carnivore";
         }
         public virtual string waddle()
         {
@@ -18,6 +19,7 @@ namespace Zoolandia.Species
         {
             this.commonName = "Emperor Penguin";
             this.scientificName = "Aptenodytes Forsteri";
+            
         }
         public override string waddle()
         {

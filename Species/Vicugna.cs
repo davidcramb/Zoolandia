@@ -6,6 +6,7 @@ namespace Zoolandia.Species
     {
         public Vicugna(string name, int height, int weight) : base(name, height, weight)
         {
+            this.diet = "herbivore";
         }
     }
     public class Pacos : Vicugna

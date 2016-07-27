@@ -6,6 +6,7 @@ namespace Zoolandia.Species
     {
         public Desmodus(string name, int height, int weight) : base(name, height, weight)
         {
+            this.diet = "carnivore";
         }
         public virtual string fly()
         {
