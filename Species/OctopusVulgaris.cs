@@ -1,8 +1,10 @@
 
 
+using System;
+
 namespace Zoolandia.Species
 {
-    public class Octopus : Animal
+    public class Octopus : Animal, IAquatic
     {
         public Octopus(string name, int height, int weight) : base (name, height, weight)
         {
@@ -28,6 +30,21 @@ namespace Zoolandia.Species
         {
             string animalSound = base.Sound();
             return "Blub blub blub";
+        }
+
+        public string swim()
+        {
+            return this.Name + " propels itself forward through the water.";
+        }
+
+        public string dive()
+        {
+            return this.Name + " returns to the seabed.";
+        }
+
+        public string surface()
+        {
+            return null;
         }
     }
     public class Vulgaris : Octopus 
