@@ -21,7 +21,7 @@ namespace Zoolandia.Species
         public bool isCute {get;set;}
         public string scientificName {get;set;}
         public string commonName {get;set;}
-        public string diet {get;set}
+        public string diet {get;set;}
 
         public string Sleep(int hoursSlept)
         {

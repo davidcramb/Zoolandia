@@ -2,7 +2,7 @@
 
 namespace Zoolandia.Species
 {
-    public class Ailurus : Animal 
+    public class Ailurus : Animal , IAmbulatory
     {
         //CONSTRUCTOR for red panda
         // base calls the base constructor
@@ -15,7 +15,7 @@ namespace Zoolandia.Species
         {
             this.diet = "omnivore";
         }
-        public 
+
         //use override to change the method functionality
         public override string Eat(int numberOfFoods)
         {
@@ -30,6 +30,15 @@ namespace Zoolandia.Species
         {
             return "Cheee chee cheee";
         }
+        public string walk()
+        {
+            return this + " walks around on all fours.";
+        }
+        public string run()
+        {
+            return this + " runs away quickly!";
+        }
+
     }
     public class Fulgens : Ailurus
     {
