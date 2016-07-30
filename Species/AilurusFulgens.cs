@@ -1,5 +1,3 @@
-
-
 namespace Zoolandia.Species
 {
     public class Ailurus : Animal , IAmbulatory

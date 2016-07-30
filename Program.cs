@@ -1,5 +1,6 @@
 ﻿using System;
 using Zoolandia.Species;
+using Zoolandia.Habitats;
 
 namespace Zoolandia
 {
