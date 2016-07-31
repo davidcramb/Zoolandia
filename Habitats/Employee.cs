@@ -1,9 +1,11 @@
 
 public class Employee
+{
+    public Employee(string name)
     {
-        public Employee (string name)
-        {
-            this.Name = name;
-        }
-        public string Name {get;set;}
+        this.Name = name;
     }
+    public Employee()
+    {}
+    public string Name {get;set;}
+}

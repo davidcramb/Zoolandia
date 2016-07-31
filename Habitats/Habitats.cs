@@ -11,5 +11,7 @@ namespace Zoolandia.Habitats
         }
         public string Name {get;set;}
         public List<Animal> inhabitants = new List<Animal>();
+        public List<Employee> employee = new List<Employee>();
+        
     }
 }
